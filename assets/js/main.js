@@ -17,8 +17,10 @@ const person = {
     lastName: 'Gartz',
     age: 25,
     persona: () => {
-        return alert('Name: ' + person.firstName + ' ' + person.lastName + '\nAge: ' + person.age)
+        alert('Name: ' + person.firstName + ' ' + person.lastName + '\nAge: ' + person.age)
+        console.log(person.firstName + ' ' +  person.lastName)
+        console.log(person.age)
     }
 }
 
-person.persona();
+person.persona()
